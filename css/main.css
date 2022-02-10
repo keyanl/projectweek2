@@ -1,0 +1,148 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 105px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin: 30px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    border-width: 3px 3 px 0px 0px;
+    border-style: solid;
+    border-color: whitesmoke;
+    box-shadow: 8px 5px 5px black;
+}
+
+.gg {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 800px;
+    justify-content: space-evenly;
+}
+
+.block-1 {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 45%;
+    border-radius: 15px;
+}
+
+header {
+    background-color: #666666;
+    width: 100%;
+    height: 10%;
+
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: whitesmoke solid 5px;
+    box-shadow: 8px 5px 5px black;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+h2 {
+    display: flex;
+    align-self: center;
+
+}
+
+h5 {
+    color: white;
+    border: whitesmoke solid 1px;
+    box-shadow: 6px 5px 5px black;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #666666;
+
+}
+.col1 {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 6px 5px 5px black;
+    border-left: #CFDBD5;
+    align-self: center;
+    background-color: lightgray;
+}
+.col2 {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 6px 5px 5px black;
+    border-left: #CFDBD5;
+    align-self: center;
+    background-color: lightgray;
+}
+
+.col2a {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 6px 5px 5px black;
+    border-left: #CFDBD5;
+    align-self: center;
+    background-color: lightgray;
+    justify-content: center;
+}
+
+.youtubetext1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.youtubevideo1 {
+    display: flex;
+    border-radius: 3px;
+    border: black solid 2px;
+    justify-content: center;
+}
